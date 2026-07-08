@@ -1,0 +1,95 @@
+section, footer {
+    width: 100%;
+    padding: 100px 200px;
+    box-sizing: border-box;
+}
+
+
+
+h3 {
+    font-family:"Cinzel";
+    color : #7C6555;
+    font-size: 40px;
+    
+}
+
+.more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+
+}
+
+.more > p {
+    font-size: 20px;
+    color : #7C6555;
+    font-family:"Cinzel";
+}
+
+.more > img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+
+
+
+@media screen and (max-width: 1500px) {
+
+section, footer {
+    padding: 100px 60px;
+}
+    
+}
+
+
+@media screen and (max-width: 1100px){
+
+    
+
+    .more {
+        width: 15vw;
+        font-size: 14px;
+    }
+
+    
+    .more > p {
+        font-size: 1.7vw;
+    }
+
+        
+
+
+    
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    section, footer {
+        padding: 80px 3vw;
+
+    }
+
+    h3 {
+        font-size: 25px;
+        
+        
+    }
+
+    .more {
+        width: 115px;
+    }
+
+    .more > p {
+        font-size: 14px;
+    }
+
+    
+
+
+}
